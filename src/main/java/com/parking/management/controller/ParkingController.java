@@ -3,6 +3,7 @@ package com.parking.management.controller;
 import com.parking.management.dto.ParkingRecordResponseDTO;
 import com.parking.management.model.ParkingRecord;
 import com.parking.management.service.ParkingService;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
