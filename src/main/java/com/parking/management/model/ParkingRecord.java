@@ -76,7 +76,7 @@ public class ParkingRecord {
         this.amountPaid = amountPaid;
     }
 
-    public boolean isPaid() {
+    public boolean getPaid() {
         return paid;
     }
 
